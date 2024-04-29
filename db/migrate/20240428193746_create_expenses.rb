@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# This migration creates the `expenses` table with `name`, `amount`, and `author_id` as columns.
 class CreateExpenses < ActiveRecord::Migration[7.0]
   def change
     create_table :expenses do |t|
