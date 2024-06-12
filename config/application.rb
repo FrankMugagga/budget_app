@@ -20,6 +20,7 @@ require 'action_cable/engine'
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+# The main application class for the BudgetApp application.
 module BudgetApp
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
